@@ -1,0 +1,73 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60px;
+  width:100%;
+  text-align: center;
+  background-color: grey;
+}
+
+main {
+  height: 3000px;
+  width:100%;
+  text-align: center;
+}
+
+footer {
+  height: 60px;
+  width:100%;
+  background-color: grey;
+}
+
+h1 {
+  font-size:50px;
+  line-height: 60px;
+}
+
+h2 {
+  padding:20px 0 20px 0;
+  font-size: 50px;
+}
+
+.contents {
+  padding:20px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 30px;
+}
+
+a,img {
+  display: block;
+  margin:0 auto;
+}
+
+img {
+  padding:60px;
+}
+
+a {
+  height:100px;
+  width:300px;
+  text-decoration: none;
+  line-height: 100px;
+  border-radius:8px;
+  border-bottom: solid 8px #627295;
+  background-color:blue;
+  color:white;
+  font-size: 35px;
+}
+
+a:active {
+  position:relative;
+  top:4px;
+  border-bottom: none;
+  opacity: 0.5;
+}
